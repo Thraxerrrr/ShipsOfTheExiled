@@ -9,8 +9,10 @@
 	"versionBuild": 1,
 	"bRequiresLoadOnStartup": false,
 	"steamPublishedFileId": "",
+	"steamTestLivePublishedFileId": "",
 	"steamVisibility": 2,
 	"folderName": "ShipsOfTheExiled",
-	"revisionNumber": 348928,
-	"snapshotId": 32447
+	"revisionNumber": 408177,
+	"snapshotId": 34671,
+	"fileSize": -2
 }
