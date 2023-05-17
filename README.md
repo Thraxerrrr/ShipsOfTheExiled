@@ -9,7 +9,7 @@ Here, you'll find information on what is included in the mod, and how you can us
 
 * [What does this mod do?](#what-does-this-mod-do)
 * [Building Ships](#building-ships)
-* [Placing, Launching and Steering](#placing-launching-and-steering)
+* [Ship Mechanics](#ship-mechanics)
 * [Ship Types](#ship-types)
 * [Important Notes](#important-notes)
 
@@ -33,15 +33,15 @@ all the recipes you need to build your own ships, from tiny rowboats to huge gal
 ### Building Materials
 
 Most of the ships are built from intermediate components, such as frames, hull planks and sails.
-You'll find all of them in three crafting stations:
+You'll find all of their recipes in three crafting stations:
 
-* **Carpenter's Bench**: is where you build the ship frame, planks, masts, oars and the final ship itself.
-* **Artisan Table**: is where you build sails and rigging.
-* **Blacksmith's Bench**: is where you build steering wheels and anchors.
+* **Carpenter's Bench** is where you build the ship frame, planks, masts, oars and the final ship itself.
+* **Artisan Table** is where you build sails and rigging.
+* **Blacksmith's Bench** is where you build steering wheels and anchors.
 
-## Placing, Launching and Steering
+## Ship Mechanics
 
-### Placing
+### Placing a Ship
 
 When you've got a ship (or boat) ready for use, head over to a body of water that's sufficiently large, and
 place down the ship. Note that some of the larger ships may have trouble detecting sufficient water; in this
@@ -51,20 +51,24 @@ case try to stand a bit further away from the water and place the ship from furt
 
 ![alt](docs/images/sote_place_ship_2.jpg)
 
-At this moment, the ship is simply a placeable. Note that it's not bobbing on the waves yet.
+At this moment, the ship is simply a static placeable. Note that it's not bobbing on the waves yet.
 Now is the time to add some more pieces to it, such as an oar or steering wheel!
 
 ![alt](docs/images/sote_place_ship_3.jpg)
 
+Also, there may be water flowing over the deck. Fear not, your boat is not sinking before even its
+maiden voyage! As soon as you start controlling it, the boat will rise to float atop the water surface.
+
 ### Launching
 
 Before you can head out and sail across the vast seas, you must first **launch** the ship.
+This action will convert the ship from a static placeable into a movable actor.
 To do this, hold **E** on the ship to access the interaction wheel, and choose the **Launch** option.
 
 ![alt](docs/images/sote_launch_1.jpg)
 
 As soon as the ship is launched, it will start bobbing on the waves (except for the large ships which do
-not bob for technical and practical considerations).
+not bob for practical considerations).
 If you open the interaction wheel again, you'll note that instead of the _Launch_ option, there are now
 several new options: 
 
@@ -77,11 +81,11 @@ state initially.
 
 * **Change Mode: Anchored**: change the mode from **Afloat** to **Anchored**. See above for more details.
 
-* **Scuttle**: this will destroy the whole ship, along with everything placed on it! **USE WITH CARE!** You may
-want to recover any placeables before scuttling the ship.
+* **Scuttle**: this will destroy the ship, along with everything placed on it. **USE WITH CARE!** You may
+want to recover any placeables, and ask passengers to leave, before scuttling the ship.
 
 * **Steer**: start steering the ship. If you do not see this option on your boat, it may require a steering component instead,
-such as an **oar**. After placing the oar, the Steer option will appear on the oar's interaction wheel.
+such as an **oar** or **steering wheel**. After placing the oar, the Steer option will appear on the oar's interaction wheel.
 
 ### Steering
 
@@ -93,12 +97,18 @@ _Note:_ you can't control ships that do not belong to your clan!
 
 ![alt](docs/images/sote_steer_3.jpg)
 
+To move the boat, use the same keys that you use for character movement (i.e. WASD). Using the Autorun button will also
+work on boats, causing them to accelerate forward automatically.
+
+The info panel will display some useful stats about your heading and velocity, and also notify you if any obstacles are
+preventing you from steering the boat forwards or backwards.
 
 ## Ship Types
 
 ### Rowboats
 
-Rowboats are the smallest type of vessel available in SotE. They are also the easiest and cheapest to build.
+Rowboats are the smallest type of vessel available in SotE, and they are also the easiest and cheapest to construct.
+They are handy for rowing down rivers and streams, and can carry some cargo and perhaps a passenger or two.
 
 #### Simple Rowboat
 
@@ -114,14 +124,14 @@ Rowboats are the smallest type of vessel available in SotE. They are also the ea
 
 ### Rafts
 
-Rafts are cheap to construct, just like rowboats, but offer a bit more space to put down some placeables.
+Just like rowboats, rafts are also cheap to construct, but they offer a bit more space to put down your placeables.
 
 ![alt](docs/images/sote_raft.jpg)
 
 ### Triremes
 
-If you're looking for naval transportation in style, make sure to try out one of the three trireme variants.
-They offer a large deck with room for many placeables and/or passengers!
+If you're looking for naval transportation in style, make sure to try out one of the trireme variants.
+They are large, look stately, and offer a large deck with room for many placeables and/or passengers!
 
 #### Variant A
 
@@ -139,21 +149,21 @@ They offer a large deck with room for many placeables and/or passengers!
 
 ![alt](docs/images/sote_khitan_vessel.jpg)
 
-The Khitan Vessel is a **buildable ship**, meaning that you can construct it (almost) entirely to your own wishes.
-It starts off as a hull with some railings and other pieces, but without any deck. Instead, there are two layers
-of **building sockets** where you can snap ceiling pieces onto.
+The Khitan Vessel is a **buildable ship**, meaning that you can build it up (almost) entirely to your own wishes.
+It starts off as a hull with some railings, but without any deck. Instead, it contains two layers of **building sockets**
+where you can snap ceiling pieces onto.
 
 #### Building on the Khitan Vessel
 
-First, place down the ship like any other ship from this mod.
+First, place down the hull like any other ship from this mod.
 
 ![alt](docs/images/sote_khitan_vessel_1.jpg)
 
-Once placed, climb on it. If you're having trouble climbing over the railing, try the inclined part near the sets of stairs.
+Once placed, climb onto it. If you're having trouble reaching over the railing, try the inclined part near the sets of stairs.
 
 ![alt](docs/images/sote_khitan_vessel_2.jpg)
 
-Grab some ceiling pieces and you'll see that there are multiple building sockets where the ceiling can be snapped onto.
+Grab some ceiling pieces and you'll see that there are multiple building sockets where the ceilings can be snapped onto.
 
 ![alt](docs/images/sote_khitan_vessel_3.jpg)
 ![alt](docs/images/sote_khitan_vessel_4.jpg)
@@ -163,11 +173,17 @@ There is a second layer exactly one wall higher, allowing you to build an upper 
 ![alt](docs/images/sote_khitan_vessel_5.jpg)
 ![alt](docs/images/sote_khitan_vessel_6.jpg)
 
-With the decks in place, feel free to add any number of walls, doors, hatches, placeables etc. When you're all done, [launch](#launching-and-steering) the ship.
+With the decks in place, feel free to add any number of walls, doors, hatches, placeables etc. When you're all done, [launch](#launching) the ship.
 
 ## Important Notes
 
-* **THIS MOD IS NOT BALANCED FOR PVP!** Needless to say, having an invulnerable mobile base will completely destroy PVP balance.
+* **THIS MOD IS NOT BALANCED FOR PVP!** Needless to say, having an invulnerable mobile base will completely wreck the PVP balance of your server.
+
 * **THIS MOD IS EXPERIMENTAL**: Please keep this in mind when installing and using the mod! You may log in one day and find that 
-your ship has decided to head off into the outer cosmos, along with anything you placed on the ship. Hopefully this will never happen,
-but it MIGHT.
+your ship has decided to head off into the outer cosmos, along with anything you placed on it. Hopefully this will never happen
+to you, but it MIGHT.
+* Upon a server restart, all ships will revert to the **Anchored** state automatically.
+* Admins can control any boat, regardless of clan ownership.
+* Please check the Discord server if you have questions or want to report an issue: https://discord.com/invite/FtWrKAZ
+
+![alt](docs/images/sote_4.jpg)
