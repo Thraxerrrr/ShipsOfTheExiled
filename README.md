@@ -182,8 +182,11 @@ With the decks in place, feel free to add any number of walls, doors, hatches, p
 * **THIS MOD IS EXPERIMENTAL**: Please keep this in mind when installing and using the mod! You may log in one day and find that 
 your ship has decided to head off into the outer cosmos, along with anything you placed on it. Hopefully this will never happen
 to you, but it MIGHT.
+
 * Upon a server restart, all ships will revert to the **Anchored** state automatically.
+
 * Admins can control any boat, regardless of clan ownership.
-* Please check the Discord server if you have questions or want to report an issue: https://discord.com/invite/FtWrKAZ
+
+* Please check the Discord server if you have questions or want to report an issue: [https://discord.com/invite/FtWrKAZ](https://discord.com/invite/FtWrKAZ)
 
 ![alt](docs/images/sote_4.jpg)
