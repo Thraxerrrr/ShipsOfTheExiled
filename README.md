@@ -5,13 +5,23 @@ Here, you'll find information on what is included in the mod, and how you can us
 
 ![alt](docs/images/sote_1.jpg)
 
+## Important Notes
+
+* **THIS MOD IS EXPERIMENTAL**: Please keep this in mind when installing and using the mod! You may log in one day and find that 
+your ship has decided to head off into the outer cosmos, along with anything you placed on it. Hopefully this will never happen
+to you, but it MIGHT.
+
+* **THIS MOD IS NOT BALANCED FOR PVP!** Needless to say, having an invulnerable, mobile base will completely wreck the PVP balance of your server.
+
+* Please check the Discord server if you have questions or want to report an issue: [https://discord.com/invite/FtWrKAZ](https://discord.com/invite/FtWrKAZ)
+
 ## Table of Contents
 
 * [What does this mod do?](#what-does-this-mod-do)
 * [Building Ships](#building-ships)
 * [Ship Mechanics](#ship-mechanics)
 * [Ship Types](#ship-types)
-* [Important Notes](#important-notes)
+* [Admin Commands](#admin-commands)
 
 ## What does this mod do?
 
@@ -175,19 +185,13 @@ There is a second layer exactly one wall higher, allowing you to build an upper 
 
 With the decks in place, feel free to add any number of walls, doors, hatches, placeables etc. When you're all done, [launch](#launching) the ship.
 
-## Important Notes
+## Admin Commands
 
-* **THIS MOD IS NOT BALANCED FOR PVP!** Needless to say, having an invulnerable mobile base will completely wreck the PVP balance of your server.
+Administrators can use the below commands to change the behaviour of this mod. To enter a command, open the console (by default using the tilde '~' sign)
+and type one of the below commands (case sensitive!):
 
-* **THIS MOD IS EXPERIMENTAL**: Please keep this in mind when installing and using the mod! You may log in one day and find that 
-your ship has decided to head off into the outer cosmos, along with anything you placed on it. Hopefully this will never happen
-to you, but it MIGHT.
+- `DataCmd SOTE ShipAdmin`: This will enable you to control any ship, as well as move ships across land (e.g. to get a beached ship back into the water). Enter the command again to toggle it off.
 
-* Upon a server restart, all ships will revert to the **Anchored** state automatically.
-
-* There is an admin command to toggle **ShipAdmin** mode: `DataCmd SOTE ShipAdmin`. This will enable admins to control ANY ship,
-as well as allow them to move ships across land (e.g. to get a beached ship back into the water). Enter the command again to toggle it off.
-
-* Please check the Discord server if you have questions or want to report an issue: [https://discord.com/invite/FtWrKAZ](https://discord.com/invite/FtWrKAZ)
+- `DataCmd SOTE ShipsDecoOnly`: This will disable the steering features of ALL SHIPS ON THE SERVER. It will essentially turn them into decorative-only pieces. Enter the command again to toggle it off. Note that this setting will persist across server restarts.
 
 ![alt](docs/images/sote_4.jpg)
