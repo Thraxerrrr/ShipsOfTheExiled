@@ -13,6 +13,8 @@ to you, but it MIGHT.
 
 * **THIS MOD IS NOT BALANCED FOR PVP!** Needless to say, having an invulnerable, mobile base will completely wreck the PVP balance of your server.
 
+* **Thralls don't behave well on moving ships** A thrall in guard mode will guard their spot relative to the world, not relative to the ship! This means that they WILL fall off if the ship moves away from their guard spot.
+
 * Please check the Discord server if you have questions or want to report an issue: [https://discord.com/invite/FtWrKAZ](https://discord.com/invite/FtWrKAZ)
 
 ## Table of Contents
