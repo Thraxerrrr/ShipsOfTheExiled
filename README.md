@@ -185,7 +185,8 @@ to you, but it MIGHT.
 
 * Upon a server restart, all ships will revert to the **Anchored** state automatically.
 
-* Admins can control any boat, regardless of clan ownership.
+* There is an admin command to toggle **ShipAdmin** mode: `DataCmd SOTE ShipAdmin`. This will enable admins to control ANY ship,
+as well as allow them to move ships across land (e.g. to get a beached ship back into the water). Enter the command again to toggle it off.
 
 * Please check the Discord server if you have questions or want to report an issue: [https://discord.com/invite/FtWrKAZ](https://discord.com/invite/FtWrKAZ)
 
