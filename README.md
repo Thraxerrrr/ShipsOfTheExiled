@@ -7,7 +7,7 @@ Here, you'll find information on what is included in the mod, and how you can us
 
 ## Important Notes
 
-* **THIS MOD IS EXPERIMENTAL**: Please keep this in mind when installing and using the mod! You may log in one day and find that 
+* **THIS MOD IS IN EXPERIMENTAL ACCESS PHASE**: Please keep this in mind when installing and using the mod! You may log in one day and find that 
 your ship has decided to head off into the outer cosmos, along with anything you placed on it. Hopefully this will never happen
 to you, but it MIGHT.
 
@@ -23,7 +23,7 @@ to you, but it MIGHT.
 * [Building Ships](#building-ships)
 * [Ship Mechanics](#ship-mechanics)
 * [Ship Types](#ship-types)
-* [Admin Commands](#admin-commands)
+* [Admin Settings](#admin-settings)
 
 ## What does this mod do?
 
@@ -187,13 +187,43 @@ There is a second layer exactly one wall higher, allowing you to build an upper 
 
 With the decks in place, feel free to add any number of walls, doors, hatches, placeables etc. When you're all done, [launch](#launching) the ship.
 
-## Admin Commands
+## Admin Settings
 
-Administrators can use the below commands to change the behaviour of this mod. To enter a command, open the console (by default using the tilde '~' sign)
-and type one of the below commands (case sensitive!):
+Administrators can configure a number of settings related to the ships. This can be done in two ways:
 
-- `DataCmd SOTE ShipAdmin`: This will enable you to control any ship, as well as move ships across land (e.g. to get a beached ship back into the water). Enter the command again to toggle it off.
+#### Sudo Exile
 
-- `DataCmd SOTE ShipsDecoOnly`: This will disable the steering features of ALL SHIPS ON THE SERVER. It will essentially turn them into decorative-only pieces. Enter the command again to toggle it off. Note that this setting will persist across server restarts.
+If you have the mod [Sudo Exile](https://steamcommunity.com/sharedfiles/filedetails/?id=2842779736) running, you can obtain the **ShipManager** permission,
+which will give you access to the Ship settings page:
+
+![alt](docs/images/sote_sudo.jpg)
+
+*Note:* Sudo Exile is not a requirement. If you don't have Sudo Exile, you can still use the console commands listed below.
+
+#### Console
+
+As an administrator, you can open the console (by default using the tilde '~' sign), and configure the ship settings using the below commands (case sensitive!):
+
+- `DataCmd SOTE ShipAdmin`: This will enable you to control any ship regardless of ownership, as well as move ships across land (e.g. to get a beached ship back into the water). Enter the command again to toggle it off.
+
+- `DataCmd SOTE set largeShipsMax <value>`: Set the global maximum number of large ships that can be in the game.
+- `DataCmd SOTE set largeShipsMaxClan <value>`: Set the maximum number of large ships that can be in the game, per clan.
+- `DataCmd SOTE set largeShipsMaxMoving <value>`: Set the maximum number of large ships that can be moving at any given time.
+- `DataCmd SOTE set largeShipsSpeedFactor <value>`: Set the speed factor to apply to all large ships.
+
+- `DataCmd SOTE set medShipsMax <value>`: Set the global maximum number of medium ships that can be in the game.
+- `DataCmd SOTE set medShipsMaxClan <value>`: Set the maximum number of medium ships that can be in the game, per clan.
+- `DataCmd SOTE set medShipsMaxMoving <value>`: Set the maximum number of medium ships that can be moving at any given time.
+- `DataCmd SOTE set medShipsSpeedFactor <value>`: Set the speed factor to apply to all medium ships.
+
+- `DataCmd SOTE set smallShipsMax <value>`: Set the global maximum number of small ships that can be in the game.
+- `DataCmd SOTE set smallShipsMaxClan <value>`: Set the maximum number of small ships that can be in the game, per clan.
+- `DataCmd SOTE set smallShipsMaxMoving <value>`: Set the maximum number of small ships that can be moving at any given time.
+- `DataCmd SOTE set smallShipsSpeedFactor <value>`: Set the speed factor to apply to all small ships.
+
+To view the current value for any of these settings, use the following command:
+
+- `DataCmd SOTE get <key>`: for example, `DataCmd SOTE get largeShipsMax`
+
 
 ![alt](docs/images/sote_4.jpg)
