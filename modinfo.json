@@ -1,18 +1,18 @@
 {
 	"name": "Ships Of The Exiled",
 	"description": "[b]Arrr matey! 'Tis time to avast and set sail![/b]\n\nThis mod allows you to build and customize ships, and sail across rivers and seas, alone or with a crew.\n\nCheck the docs for a full overview of features this mod offers.\nPlease use the discord for any questions, or to report any issues you run into.\n\n[h1]Documentation[/h1]\nhttps://thraxerrrr.github.io/ShipsOfTheExiled\n\n[h1]Discord[/h1]\nhttps://discord.gg/FtWrKAZ",
-	"changeNote": "",
+	"changeNote": "v1.1.0\n\n* Added Stygian Raider",
 	"author": "Thraxerrrr",
 	"authorUrl": "",
 	"versionMajor": 1,
-	"versionMinor": 0,
+	"versionMinor": 1,
 	"versionBuild": 0,
 	"bRequiresLoadOnStartup": false,
 	"steamPublishedFileId": "2859576979",
 	"steamTestLivePublishedFileId": "",
-	"steamVisibility": 3,
+	"steamVisibility": 0,
 	"folderName": "ShipsOfTheExiled",
-	"revisionNumber": 509742,
-	"snapshotId": 37609,
+	"revisionNumber": 612434,
+	"snapshotId": 39641,
 	"fileSize": -2
 }
