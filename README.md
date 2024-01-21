@@ -223,7 +223,7 @@ Administrators can configure a number of settings related to the ships. This can
 
 #### Sudo Exile
 
-If you have the mod [Sudo Exile](https://steamcommunity.com/sharedfiles/filedetails/?id=2842779736) running, you can obtain the **ShipManager** permission,
+If you have the mod [Tot ! Sudo](https://steamcommunity.com/sharedfiles/filedetails/?id=3036057084) installed, you can obtain the **ShipManager** permission,
 which will give you access to the Ship settings page:
 
 ![alt](docs/images/sote_sudo.jpg)
