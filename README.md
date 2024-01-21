@@ -117,7 +117,18 @@ preventing you from steering the boat forwards or backwards.
 
 ## Ship Types
 
-### Rowboats
+### Overview
+
+| Ship           | Size   | Top Speed | Acceleration | Turn Rate |
+| -------------- | ------ | --------- | ------------ | --------- |
+| Rowboat        | Small  | 500       | 100          | 2         |
+| Raft           | Small  | 600       | 128          | 1         |
+| Trireme        | Medium | 700       | 90           | 1         |
+| Khitan Vessel  | Medium | 750       | 90           | 1         |
+| Galleon        | Large  | 850       | 70           | 1         |
+| Stygian Raider | Large  | 900       | 90           | 1         |
+
+### Rowboat
 
 Rowboats are the smallest type of vessel available in SotE, and they are also the easiest and cheapest to construct.
 They are handy for rowing down rivers and streams, and can carry some cargo and perhaps a passenger or two.
@@ -134,13 +145,13 @@ They are handy for rowing down rivers and streams, and can carry some cargo and 
 
 ![alt](docs/images/sote_rowboat_large.jpg)
 
-### Rafts
+### Raft
 
 Just like rowboats, rafts are also cheap to construct, but they offer a bit more space to put down your placeables.
 
 ![alt](docs/images/sote_raft.jpg)
 
-### Triremes
+### Trireme
 
 If you're looking for naval transportation in style, make sure to try out one of the trireme variants.
 They are large, look stately, and offer a large deck with room for many placeables and/or passengers!
@@ -187,6 +198,23 @@ There is a second layer exactly one wall higher, allowing you to build an upper 
 
 With the decks in place, feel free to add any number of walls, doors, hatches, placeables etc. When you're all done, [launch](#launching) the ship.
 
+### Stygian Raider
+
+The Stygian Raider is an imposing vessel, classified as a large ship type and quite costly to build.
+But don't be fooled by its size: this sleek warship has the highest maximum speed of all ships currently in SotE!
+
+![alt](docs/images/sote_stygian_raider.jpg)
+
+### Galleon
+
+Building a galleon is a task that should not be undertaken lightly. It costs a vast amount of resources to build, and it is certainly not the fastest
+ship out there. But what you get in the end may well be worth it: this enormous ship offers plenty of room to accommodate an entire clan, boasting three
+decks and numerous cabins and staircases.
+
+_Admin note:_ for performance reasons, make sure to limit the number of placeables allowed! See the setting `largeShipsMaxPlaceables` in the [admin settings](#admin-settings).
+
+![alt](docs/images/sote_galleon.jpg)
+
 ## Admin Settings
 
 Administrators can configure a number of settings related to the ships. This can be done in two ways:
@@ -210,16 +238,19 @@ As an administrator, you can open the console (by default using the tilde '~' si
 - `DataCmd SOTE set largeShipsMaxClan <value>`: Set the maximum number of large ships that can be in the game, per clan.
 - `DataCmd SOTE set largeShipsMaxMoving <value>`: Set the maximum number of large ships that can be moving at any given time.
 - `DataCmd SOTE set largeShipsSpeedFactor <value>`: Set the speed factor to apply to all large ships.
+- `DataCmd SOTE set largeShipsMaxPlaceables <value>`: Set the maximum number of placeables that a large ship can carry.
 
 - `DataCmd SOTE set medShipsMax <value>`: Set the global maximum number of medium ships that can be in the game.
 - `DataCmd SOTE set medShipsMaxClan <value>`: Set the maximum number of medium ships that can be in the game, per clan.
 - `DataCmd SOTE set medShipsMaxMoving <value>`: Set the maximum number of medium ships that can be moving at any given time.
 - `DataCmd SOTE set medShipsSpeedFactor <value>`: Set the speed factor to apply to all medium ships.
+- `DataCmd SOTE set medShipsMaxPlaceables <value>`: Set the maximum number of placeables that a medium ship can carry.
 
 - `DataCmd SOTE set smallShipsMax <value>`: Set the global maximum number of small ships that can be in the game.
 - `DataCmd SOTE set smallShipsMaxClan <value>`: Set the maximum number of small ships that can be in the game, per clan.
 - `DataCmd SOTE set smallShipsMaxMoving <value>`: Set the maximum number of small ships that can be moving at any given time.
 - `DataCmd SOTE set smallShipsSpeedFactor <value>`: Set the speed factor to apply to all small ships.
+- `DataCmd SOTE set smallShipsMaxPlaceables <value>`: Set the maximum number of placeables that a small ship can carry.
 
 To view the current value for any of these settings, use the following command:
 
