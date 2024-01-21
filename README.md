@@ -7,11 +7,13 @@ Here, you'll find information on what is included in the mod, and how you can us
 
 ## Important Notes
 
-* **THIS MOD IS IN EXPERIMENTAL ACCESS PHASE**: Please keep this in mind when installing and using the mod! You may log in one day and find that 
+* **THIS MOD IS IN EXPERIMENTAL STAGE**: Please keep this in mind when installing and using the mod! You may log in one day and find that 
 your ship has decided to head off into the outer cosmos, along with anything you placed on it. Hopefully this will never happen
 to you, but it MIGHT.
 
 * **THIS MOD IS NOT BALANCED FOR PVP!** Needless to say, having an invulnerable, mobile base will completely wreck the PVP balance of your server.
+
+* **This mod was only tested for multiplayer (dedicated server)**
 
 * **Thralls don't behave well on moving ships** A thrall in guard mode will guard their spot relative to the world, not relative to the ship! This means that they WILL fall off if the ship moves away from their guard spot.
 
