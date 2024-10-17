@@ -117,18 +117,28 @@ work on boats, causing them to accelerate forward automatically.
 The info panel will display some useful stats about your heading and velocity, and also notify you if any obstacles are
 preventing you from steering the boat forwards or backwards.
 
+### Customizing your Ship
+
+Some ships can be customized after they've been launched into the water. To do this, open the radial wheel
+on the ship, and select **Customize Ship**. A dialog will allow you to change the appearance of the ship.
+
+_Note:_ currently, only the Fishing Sloop supports customization of its sail color.
+
 ## Ship Types
 
 ### Overview
 
-| Ship           | Size   | Top Speed | Acceleration | Turn Rate |
-| -------------- | ------ | --------- | ------------ | --------- |
-| Rowboat        | Small  | 500       | 100          | 2         |
-| Raft           | Small  | 600       | 128          | 1         |
-| Trireme        | Medium | 700       | 90           | 1         |
-| Khitan Vessel  | Medium | 750       | 90           | 1         |
-| Galleon        | Large  | 850       | 70           | 1         |
-| Stygian Raider | Large  | 900       | 90           | 1         |
+| Ship            | Size   | Top Speed | Acceleration | Turn Rate |
+| --------------- | ------ | --------- | ------------ | --------- |
+| Rowboat         | Small  | 500       | 100          | 2         |
+| Raft            | Small  | 600       | 128          | 1         |
+| Trireme         | Medium | 700       | 90           | 1         |
+| Khitan Vessel   | Medium | 750       | 90           | 1         |
+| Merchant Vessel | Medium | 650       | 128          | 1.5       |
+| Fishing Sloop   | Medium | 600       | 100          | 2         |
+| Drakkar         | Medium | 700       | 90           | 1         |
+| Galleon         | Large  | 850       | 70           | 1         |
+| Stygian Raider  | Large  | 900       | 90           | 1         |
 
 ### Rowboat
 
@@ -199,6 +209,27 @@ There is a second layer exactly one wall higher, allowing you to build an upper 
 ![alt](docs/images/sote_khitan_vessel_6.jpg)
 
 With the decks in place, feel free to add any number of walls, doors, hatches, placeables etc. When you're all done, [launch](#launching) the ship.
+
+### Merchant Vessel
+
+Merchants and river traders need look no further: this compact and cozy vessel allows you to ply your trade on any river, deep or shallow.
+Bring your fresh products directly to your (undoubtedly happy) customers, and watch your profits grow!
+
+![alt](docs/images/sote_merchant_vessel.jpg)
+
+### Fishing Sloop
+
+The average fisherman lives an unenviable life: one full of hard labor, poor compensation and very little recognition.
+Yet he or she needs a sturdy, reliable vessel that will get them through harsh conditions and stormy weathers. The Fishing Sloop will do exactly that!
+
+![alt](docs/images/sote_fishing_sloop.jpg)
+
+### Drakkar 
+
+Plunder your favorite coastlines and terrorize the locals by sailing this ominous warship directly onto their beaches!
+If you roar your war cry while jumping off this grizzled vessel with axe or hammer in hand, the battle is already half won!
+
+![alt](docs/images/sote_drakkar.jpg)
 
 ### Stygian Raider
 

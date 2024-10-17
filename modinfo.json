@@ -1,11 +1,11 @@
 {
 	"name": "Ships Of The Exiled",
 	"description": "[b]Arrr matey! 'Tis time to avast and set sail![/b]\n\nThis mod allows you to build and customize ships, and sail across rivers and seas, alone or with a crew.\n\nCheck the docs for a full overview of features this mod offers.\nPlease use the discord for any questions, or to report any issues you run into.\n\n[h1]Documentation[/h1]\nhttps://thraxerrrr.github.io/ShipsOfTheExiled\n\n[h1]Discord[/h1]\nhttps://discord.gg/FtWrKAZ",
-	"changeNote": "v1.1.0\n\n* New ship type: Galleon. Ride the waves in a behemoth of ludicrous size!\n* New ship type: Stygian Raider. Sleek and swift warship using the beautiful assets from Funcom!\n* New settings: largeShipsMaxPlaceables, medShipsMaxPlaceables, smallShipsMaxPlaceables\n* Adjusted ship size, speed & handling parameters, see docs for details\n* Adjusted ship saving mechanism",
+	"changeNote": "v1.2.0\n\n* Compatible with Age of Heroes\n* New ship type: Drakkar. Blow your warhorn and assail your enemies with this fearsome warship!\n* New ship type: Merchant Vessel. Ply your trade on the rivers using this compact and versatile boat.\n* New ship type: Fishing Sloop. Provide for your clan by catching fresh fish on the tides in this humble sloop.\n* New mechanic: sail furling when a ship is anchored. Currently supported by the Fishing Sloop.\n* New mechanic: custom sail colors. Currently supported by the Fishing Sloop.\n* Fix: female characters will now keep using female animations after steering a ship\n* Fix: added some missing collision shapes on the Stygian Raider",
 	"author": "Thraxerrrr",
 	"authorUrl": "",
 	"versionMajor": 1,
-	"versionMinor": 1,
+	"versionMinor": 2,
 	"versionBuild": 0,
 	"bRequiresLoadOnStartup": false,
 	"steamPublishedFileId": "2859576979",
